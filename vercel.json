@@ -11,5 +11,15 @@
       "src": "/api/?(.*)",
       "dest": "app.py"
     }
+  ],
+  "excludeFiles": [
+    "**/*.pyc",
+    "**/__pycache__/**",
+    ".env",
+    ".git/**",
+    ".venv/**",
+    "tests/**",
+    "docs/**",
+    "*.md"
   ]
 }
